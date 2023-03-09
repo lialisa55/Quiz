@@ -21,5 +21,21 @@ namespace Quiz
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (radioButton2.Checked)
+            {
+                Class1.Acertou();
+            }
+            else
+            {
+                Class1.Errou();
+            }
+
+            Form3 form3 = new Form3();
+            form3.Show();
+            this.Hide();
+        }
     }
 }

@@ -31,7 +31,6 @@ namespace Quiz
         {
             this.button1 = new System.Windows.Forms.Button();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
@@ -43,39 +42,29 @@ namespace Quiz
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(584, 304);
+            this.button1.Location = new System.Drawing.Point(568, 299);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 18;
             this.button1.Text = "Confirmar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // radioButton5
             // 
             this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(576, 202);
+            this.radioButton5.Location = new System.Drawing.Point(487, 234);
             this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(65, 17);
+            this.radioButton5.Size = new System.Drawing.Size(156, 17);
             this.radioButton5.TabIndex = 17;
             this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "1024MB";
+            this.radioButton5.Text = "Nenhuma das duas é volátil";
             this.radioButton5.UseVisualStyleBackColor = true;
-            // 
-            // radioButton4
-            // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(490, 253);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(65, 17);
-            this.radioButton4.TabIndex = 16;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "1204MB";
-            this.radioButton4.UseVisualStyleBackColor = true;
             // 
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(490, 201);
+            this.radioButton3.Location = new System.Drawing.Point(487, 191);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(113, 17);
             this.radioButton3.TabIndex = 15;
@@ -86,7 +75,7 @@ namespace Quiz
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(487, 163);
+            this.radioButton2.Location = new System.Drawing.Point(487, 150);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(185, 17);
             this.radioButton2.TabIndex = 14;
@@ -142,7 +131,6 @@ namespace Quiz
             this.ClientSize = new System.Drawing.Size(767, 384);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.radioButton5);
-            this.Controls.Add(this.radioButton4);
             this.Controls.Add(this.radioButton3);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
@@ -161,7 +149,6 @@ namespace Quiz
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton4;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;

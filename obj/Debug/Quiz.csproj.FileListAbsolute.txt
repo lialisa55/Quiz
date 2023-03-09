@@ -18,3 +18,4 @@ G:\MODULO2\Quiz\obj\Debug\Quiz.csproj.GenerateResource.cache
 G:\MODULO2\Quiz\obj\Debug\Quiz.csproj.CoreCompileInputs.cache
 G:\MODULO2\Quiz\obj\Debug\Quiz.exe
 G:\MODULO2\Quiz\obj\Debug\Quiz.pdb
+G:\MODULO2\Quiz\obj\Debug\Quiz.Form3.resources

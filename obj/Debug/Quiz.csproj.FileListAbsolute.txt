@@ -7,3 +7,14 @@ C:\Users\Manager\source\repos\Quiz\obj\Debug\Quiz.csproj.GenerateResource.cache
 C:\Users\Manager\source\repos\Quiz\obj\Debug\Quiz.csproj.CoreCompileInputs.cache
 C:\Users\Manager\source\repos\Quiz\obj\Debug\Quiz.exe
 C:\Users\Manager\source\repos\Quiz\obj\Debug\Quiz.pdb
+G:\MODULO2\Quiz\bin\Debug\Quiz.exe.config
+G:\MODULO2\Quiz\bin\Debug\Quiz.exe
+G:\MODULO2\Quiz\bin\Debug\Quiz.pdb
+G:\MODULO2\Quiz\obj\Debug\Quiz.csproj.AssemblyReference.cache
+G:\MODULO2\Quiz\obj\Debug\Quiz.Form1.resources
+G:\MODULO2\Quiz\obj\Debug\Quiz.Form2.resources
+G:\MODULO2\Quiz\obj\Debug\Quiz.Properties.Resources.resources
+G:\MODULO2\Quiz\obj\Debug\Quiz.csproj.GenerateResource.cache
+G:\MODULO2\Quiz\obj\Debug\Quiz.csproj.CoreCompileInputs.cache
+G:\MODULO2\Quiz\obj\Debug\Quiz.exe
+G:\MODULO2\Quiz\obj\Debug\Quiz.pdb

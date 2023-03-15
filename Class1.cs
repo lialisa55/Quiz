@@ -8,6 +8,7 @@ namespace Quiz
 {
     class Class1
     {
+        // Aqui estão declaradas as variáveis globais, para contabilizar acerto e erro
         public static int Acerto = 0;
         public static int Erro = 0;
 

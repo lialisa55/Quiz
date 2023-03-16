@@ -19,6 +19,7 @@ namespace Quiz
 
         private void resultado_Load(object sender, EventArgs e)
         {
+            // Aqui está a instancia de output ao final do quiz. Mostrando todos seus erros e acertos.
             richTextBox1.Text = "Acertos: " + Class1.MostrarAcertos() + "\n\nErros: " + Class1.MostrarErro();
         }
     }

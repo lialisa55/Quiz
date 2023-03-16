@@ -24,6 +24,7 @@ namespace Quiz
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // Daqui em diante, continua a mesma resolução, if e else para declarar alternativa certa e errada.
             if (radioButton2.Checked)
             {
                 Class1.Acertou();

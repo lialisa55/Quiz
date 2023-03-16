@@ -24,15 +24,18 @@ namespace Quiz
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // Aqui é marcada a alternativa correta, neste caso alternativa 5.
             if (radioButton5.Checked)
             {
                 Class1.Acertou();
             }
+            // Else adicionará à global Errou caso o usuário erre.
             else
             {
                 Class1.Errou();
             }
-
+            
+            // Esta instancia abre um novo form ao final da questão.
             Form2 form2 = new Form2();
             form2.Show();
             this.Hide();
